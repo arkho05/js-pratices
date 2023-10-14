@@ -7,15 +7,29 @@ var rect = document.querySelector("#center");//dom
 
 rect.addEventListener("mousemove", function(box){
     var rectanglelocation =rect.getBoundingClientRect();
-    var insiderectval = box.clientx - rectanglelocation.left;
+    var insiderectval = box.clientX - rectanglelocation.left;
     
-    if(insiderectval<rectanglelocation.width/2){
-        console.log("left");
+    // if(insiderectval < rectanglelocation.width/2){
+    //     console.log("left");
+    // }
+    // else {
+    //     console.log("right");
+    // }  // 2nd answer
+
+
+    // 3rd Qustion
+
+    if (insiderectval < rectanglelocation.width/2){
+
+    } else{
+         
     }
-    else {
-        console.log("right");
-    }
-})
+
+
+});
+
+
+console.log(gsap.utils.mapRange(0, 250, 255, 0, 23));
 
  
 
