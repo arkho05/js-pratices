@@ -32,7 +32,28 @@ rect.addEventListener("mousemove", function(box){
 // console.log(gsap.utils.mapRange(0, 250, 255, 0, 23));
 
 
-console.log(gsap.utils.mapRange(0, 250, 255, 0, 23));
+var mapper=(gsap.utils.mapRange(0, 250, 255, 0,));
+
+console.log(mapper(23));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
  
