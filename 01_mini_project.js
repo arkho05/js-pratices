@@ -4,7 +4,7 @@ rectangle to red and when we move mouse to the right side we want to change
 the color to blue */
 
 var rect = document.querySelector("#center");//dom
-import {gsap} from 'gsap';
+
 
 rect.addEventListener("mousemove", function(box){
     var rectanglelocation =rect.getBoundingClientRect();
