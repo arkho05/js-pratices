@@ -2,9 +2,9 @@
 the left side we want to gradually6 change the color of that 
 rectangle to red and when we move mouse to the right side we want to change 
 the color to blue */
-import {gsap} from 'gsap';
 
 var rect = document.querySelector("#center");//dom
+import {gsap} from 'gsap';
 
 rect.addEventListener("mousemove", function(box){
     var rectanglelocation =rect.getBoundingClientRect();
